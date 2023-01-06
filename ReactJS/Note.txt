@@ -1,0 +1,32 @@
+1. 
+        handClick biến hoặc hàm của JSX
+        1. return 1 hàm trả về là 1 div-chỉ 1 thẻ cha. bên trong là các thẻ html
+        2. Attribute viết hoa chữ cái đầu từ tiếp theo: onClick={hàm hoặc biến}
+        3. ClassName là class. Khai báo className="App"
+        4 <div style ={divStyle}</div >
+2.Component có 2 loại:
+ - Class Component
+  + Luôn sử dụng từ khóa "this" khi gọi biến, hàm 
+  + Khai báo biến trong hàm tạo(contructort())
+  + trong render() của Class vẫn sử dụng const vs let bt.
+  + không được dùng this.props.tenthuoctinh ở contructort class được. 
+ - Function component
+        + KHÔNG sử dụng từ khóa "this" khi gọi biến, hàm
+        + Khai báo biến, hàm với từ khóa let/const 
+3. React.Component
+-Tất cả các component đều extends từ React.Component.
+ +) chứa tất cả tiện ích giống như kiểu Object trong java.
+4. this.props
+props là property : là thuộc tính của class do thằng khác truyền vào.
+- mục đích của nó là truyền data từ ngoài vào Function
+- this.props.children là lấy Content  : <Class ...>Content</Class>
+5. Best Practices
+ - Chia thành các thành phần nhỏ hơn
+ - Không tạo base component
+6. JSX
+ Có thể là :
+  a. biến
+  b. biểu thức
+  c. props.children
+ ----------
+ Câu hỏi : list= {this.props.list} vì sao lấy được?

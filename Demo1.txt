@@ -1,2 +1,4 @@
 <h2>Quan Ly nhan vien</h2>
 git add . la add tat ca len . => dang ở stage
+
+Setting -> Collaborators -> " Add people"
