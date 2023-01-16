@@ -30,3 +30,12 @@ props là property : là thuộc tính của class do thằng khác truyền và
   c. props.children
  ----------
  Câu hỏi : list= {this.props.list} vì sao lấy được?
+
+ 7. State
+  Phải ở trong constructor
+  Phải bằng 1 đối tượng chứ không phải 1 chuỗi
+  Phải bằng 1 hàm
+  The capitalize event handler is a method of the component and not part of the component state.
+
+  What does this.props.children return?
+        Everything between a component’s opening and closing tags
